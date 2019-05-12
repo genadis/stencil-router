@@ -7,7 +7,7 @@
 
 import '@stencil/core';
 
-import '@stencil/router';
+import '@annoto/stencil-router';
 import {
   LocationSegments,
   MatchResults,

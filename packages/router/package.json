@@ -1,6 +1,6 @@
 {
   "name": "@annoto/stencil-router",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Stencil Router",
   "module": "dist/collection/index.js",
   "main": "dist/index.js",
