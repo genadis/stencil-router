@@ -9,7 +9,7 @@ export type Prompt = (location: LocationSegments, action: string) => string;
 
 export interface RouteRenderProps {
   history: RouterHistory;
-  match: MatchResults | null;
+  match: MatchResults;
   [key: string]: any;
 }
 
@@ -53,6 +53,7 @@ export interface RouterHistory {
   goForward: () => void;
   block: (prompt?: string | Prompt) => () => void;
   listen: (listener: Function) => () => void;
+  win: Window;
 }
 
 export interface RouterGroup {
